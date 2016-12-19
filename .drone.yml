@@ -1,0 +1,8 @@
+publish:
+    docker:
+        repo: wizehub/kushwahashiv_express-angular
+        username: $$DOCKER_USER
+        password: $$DOCKER_PASS
+        email: $$DOCKER_EMAIL
+        tag: master
+        insecure: false
